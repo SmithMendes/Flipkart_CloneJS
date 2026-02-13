@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Clone - Online Shopping India</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Sticky Top Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <!-- Logo Section -->
+            <div class="logo-section">
+                <a href="#" class="logo">
+                    <div class="logo-main">Flipkart</div>
+                    <div class="logo-text">
+                        <span class="explore">Explore <span class="plus">Plus</span></span>
+                        <img src="images/plus.png" alt="Plus" class="plus-icon">
+                    </div>
+                </a>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-section">
+                <form class="search-form">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" placeholder="Search for Products, Brands and More" class="search-input">
+                </form>
+            </div>
+
+            <!-- Right Side Icons -->
+            <div class="user-actions">
+                <div class="action-item login">
+                    <a href="#" class="action-link">
+                        <i class="far fa-user-circle"></i>
+                        <span class="action-text">Login</span>
+                        <i class="fas fa-chevron-down dropdown-icon"></i>
+                    </a>
+                </div>
+                <div class="action-item cart">
+                    <a href="#" class="action-link">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="action-text">Cart</span>
+                    </a>
+                </div>
+                <div class="action-item seller">
+                    <a href="#" class="action-link">
+                        <i class="fas fa-store"></i>
+                        <span class="action-text">Become a Seller</span>
+                    </a>
+                </div>
+                <div class="action-item more">
+                    <a href="#" class="action-link">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Second Navbar with Categories -->
+    <nav class="category-nav">
+        <div class="category-container">
+            <a href="#" class="category-item">
+                <img src="images/minutes.png" alt="Minutes" class="category-icon">
+                <span class="category-text">Minutes</span>
+            </a>    
+            <a href="#" class="category-item">
+                <img src="images/mobile.webp" alt="Mobiles" class="category-icon">
+                <span class="category-text">Mobiles & Tablets</span>
+            </a>
+            <a href="#" class="category-item">
+                <img src="images/fashion.webp" alt="Fashion" class="category-icon">
+                <span class="category-text">Fashion</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+            <a href="#" class="category-item">
+                <img src="images/electronics.webp" alt="Electronics" class="category-icon">
+                <span class="category-text">Electronics</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>            
+            <a href="#" class="category-item">
+                <img src="images/appliances.webp" alt="Appliances" class="category-icon">
+                <span class="category-text">Appliances</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+            <a href="#" class="category-item">
+                <img src="images/home.png" alt="Home" class="category-icon">
+                <span class="category-text">Furniture</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+            <a href="#" class="category-item">
+                <img src="images/travel.webp" alt="Travel" class="category-icon">
+                <span class="category-text">Flight Bookings</span>
+            </a>
+            <a href="#" class="category-item">
+                <img src="images/beauty.webp" alt="Beauty" class="category-icon">
+                <span class="category-text">Beauty</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+            <a href="#" class="category-item">
+                <img src="images/grocery.webp" alt="Grocery" class="category-icon">
+                <span class="category-text">Grocery</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Banner Section -->
+        <section class="hero-banner">
+            <div class="hero-slider">
+                <div class="slide active">
+                    <img src="images/s1.webp" alt="Hero Banner 1">
+                </div>
+                <div class="slide">
+                    <img src="images/s2.webp" alt="Hero Banner 2">
+                </div>
+                <div class="slide">
+                    <img src="images/s3.webp" alt="Hero Banner 3">
+                </div>
+                <div class="slide">
+                    <img src="images/s4.webp" alt="Hero Banner 3">
+                </div>
+                <div class="slide-controls">
+                    <button class="slide-btn prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slide-btn next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Sections -->
+        <!-- Top Offers Section -->
+        <section class="product-section">
+            <div class="section-header">
+                <h2 class="section-title">Today's Top Offers</h2>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            <div class="product-scroll-container">
+                <div class="product-card">
+                    <div class="product-badge">60% off</div>
+                    <img src="images/s23.jpg" alt="Samsung Galaxy S23" class="product-image">
+                    <h3 class="product-title">Samsung Galaxy S23 5G</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.2</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹64,999</span>
+                        <span class="original-price">₹79,999</span>
+                        <span class="discount">18% off</span>
+                    </div>
+                    <div class="product-description">256 GB, 8 GB RAM | Snapdragon 8 Gen 2</div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">50% off</div>
+                    <img src="images/5x.webp" alt="Mi 5X Smart TV" class="product-image">
+                    <h3 class="product-title">Mi 5X 108 cm (43 inch)</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.3</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹22,999</span>
+                        <span class="original-price">₹45,999</span>
+                        <span class="discount">50% off</span>
+                    </div>
+                    <div class="product-description">Full HD LED Smart Android TV</div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">55% off</div>
+                    <img src="images/7.5.jpg" alt="Whirlpool Washing Machine" class="product-image">
+                    <h3 class="product-title">Whirlpool 7.5 kg 5 Star</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-count">4.5</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹15,490</span>
+                        <span class="original-price">₹34,500</span>
+                        <span class="discount">55% off</span>
+                    </div>
+                    <div class="product-description">Fully Automatic Top Load Washing Machine</div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">45% off</div>
+                    <img src="images/55.webp" alt="Boat Headphones" class="product-image">
+                    <h3 class="product-title">boAt Rockerz 550</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.1</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹1,799</span>
+                        <span class="original-price">₹3,290</span>
+                        <span class="discount">45% off</span>
+                    </div>
+                    <div class="product-description">Over Ear Bluetooth Headphones</div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">60% off</div>
+                    <img src="images/em.webp" alt="LG AC" class="product-image">
+                    <h3 class="product-title">LG 1.5 Ton 5 Star</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.4</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹36,490</span>
+                        <span class="original-price">₹91,000</span>
+                        <span class="discount">60% off</span>
+                    </div>
+                    <div class="product-description">AI Dual Inverter Split AC</div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">35% off</div>
+                    <img src="images/nike.jpg" alt="Nike Shoes" class="product-image">
+                    <h3 class="product-title">Nike Revolution 6</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.2</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹2,895</span>
+                        <span class="original-price">₹4,495</span>
+                        <span class="discount">35% off</span>
+                    </div>
+                    <div class="product-description">Running Shoes For Men</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fashion Section -->
+        <section class="product-section">
+            <div class="section-header">
+                <h2 class="section-title">Best of Fashion</h2>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            <div class="product-scroll-container">
+                <div class="product-card">
+                    <div class="product-badge">Min. 60% off</div>
+                    <img src="images/mensirt.jpg" alt="Men's Shirt" class="product-image">
+                    <h3 class="product-title">Men's Regular Fit Shirt</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.0</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹499</span>
+                        <span class="original-price">₹1,299</span>
+                        <span class="discount">61% off</span>
+                    </div>
+                    <div class="product-description">Duke Blue | Cotton Blend</div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">Min. 50% off</div>
+                    <img src="images/women.jpg" alt="Women's Kurti" class="product-image">
+                    <h3 class="product-title">Women's Printed Kurti</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.1</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹399</span>
+                        <span class="original-price">₹999</span>
+                        <span class="discount">60% off</span>
+                    </div>
+                    <div class="product-description">Rayon | Regular Fit</div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">Min. 40% off</div>
+                    <img src="images/fittedjins.jpg" alt="Men's Jeans" class="product-image">
+                    <h3 class="product-title">Men's Slim Fit Jeans</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.0</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹699</span>
+                        <span class="original-price">₹1,999</span>
+                        <span class="discount">65% off</span>
+                    </div>
+                    <div class="product-description">Blue Denim | Stretchable</div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">Min. 70% off</div>
+                    <img src="images/sari.jpg" alt="Women's Saree" class="product-image">
+                    <h3 class="product-title">Women's Embroidered Saree</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.2</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹499</span>
+                        <span class="original-price">₹1,999</span>
+                        <span class="discount">75% off</span>
+                    </div>
+                    <div class="product-description">Georgette | Blouse Piece Included</div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">Min. 50% off</div>
+                    <img src="images/sx.jpg" alt="Women's Shoes" class="product-image">
+                    <h3 class="product-title">Women's Casual Shoes</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.0</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹499</span>
+                        <span class="original-price">₹999</span>
+                        <span class="discount">50% off</span>
+                    </div>
+                    <div class="product-description">White | Sneakers For Women</div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">Min. 60% off</div>
+                    <img src="images/titan.jpg" alt="Men's Watch" class="product-image">
+                    <h3 class="product-title">Men's Analog Watch</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.3</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹1,099</span>
+                        <span class="original-price">₹2,495</span>
+                        <span class="discount">55% off</span>
+                    </div>
+                    <div class="product-description">Fastrack | Stainless Steel Strap</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Electronics Section -->
+        <section class="product-section">
+            <div class="section-header">
+                <h2 class="section-title">Best of Electronics</h2>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            <div class="product-scroll-container">
+                <div class="product-card">
+                    <div class="product-badge">45% off</div>
+                    <img src="images/hp.jpg" alt="HP Laptop" class="product-image">
+                    <h3 class="product-title">HP Pavilion 15.6 inch</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.2</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹58,990</span>
+                        <span class="original-price">₹1,07,000</span>
+                        <span class="discount">45% off</span>
+                    </div>
+                    <div class="product-description">Intel Core i5 | 16GB RAM | 512GB SSD</div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">50% off</div>
+                    <img src="images/hd.jpg" alt="Sony Headphones" class="product-image">
+                    <h3 class="product-title">Sony WH-CH520</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.3</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹4,990</span>
+                        <span class="original-price">₹9,990</span>
+                        <span class="discount">50% off</span>
+                    </div>
+                    <div class="product-description">Wireless Bluetooth Headset</div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">40% off</div>
+                    <img src="images/tribit.webp" alt="Bluetooth Speaker" class="product-image">
+                    <h3 class="product-title">Anker Soundcore Select 2</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.1</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹3,999</span>
+                        <span class="original-price">₹6,999</span>
+                        <span class="discount">42% off</span>
+                    </div>
+                    <div class="product-description">Bluetooth Speaker | 16H Playtime</div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">35% off</div>
+                    <img src="images/front-high.avif" alt="Gaming Monitor" class="product-image">
+                    <h3 class="product-title">Gigabyte 24 inch Gaming Monitor</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.4</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹12,999</span>
+                        <span class="original-price">₹19,999</span>
+                        <span class="discount">35% off</span>
+                    </div>
+                    <div class="product-description">144Hz Refresh Rate | 1ms Response</div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">30% off</div>
+                    <img src="images/gm.jpg" alt="Gaming PC" class="product-image">
+                    <h3 class="product-title">HP Victus Gaming Desktop</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.3</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹64,990</span>
+                        <span class="original-price">₹92,999</span>
+                        <span class="discount">30% off</span>
+                    </div>
+                    <div class="product-description">Ryzen 5 | 8GB RAM | 512GB SSD | GTX 1650</div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">25% off</div>
+                    <img src="images/mou.webp" class="product-image">
+                    <h3 class="product-title">Razer DeathAdder Essential</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">4.2</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">₹1,499</span>
+                        <span class="original-price">₹1,999</span>
+                        <span class="discount">25% off</span>
+                    </div>
+                    <div class="product-description">Gaming Mouse | 6400 DPI</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3 class="footer-title">ABOUT</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Flipkart Stories</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Corporate Information</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 class="footer-title">GROUP COMPANIES</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Myntra</a></li>
+                    <li><a href="#">Cleartrip</a></li>
+                    <li><a href="#">Shopsy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 class="footer-title">HELP</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Payments</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Cancellation & Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 class="footer-title">CONSUMER POLICY</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Cancellation & Returns</a></li>
+                    <li><a href="#">Terms Of Use</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Grievance Redressal</a></li>
+                    <li><a href="#">EPR Compliance</a></li>
+                    <li><a href="#">FSSAI Food Safety Connect App</a></li>
+                </ul>
+            </div>
+            <div class="footer-section mail-section">
+                <h3 class="footer-title">Mail Us:</h3>
+                <p class="footer-text">
+                    Flipkart Internet Private Limited,<br>
+                    Buildings Alyssa, Begonia &<br>
+                    Clove Embassy Tech Village,<br>
+                    Outer Ring Road, Devarabeesanahalli Village,<br>
+                    Bengaluru, 560103,<br>
+                    Karnataka, India
+                </p>
+                <h3 class="footer-title social-title">Social:</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section address-section">
+                <h3 class="footer-title">Registered Office Address:</h3>
+                <p class="footer-text">
+                    Flipkart Internet Private Limited,<br>
+                    Buildings Alyssa, Begonia &<br>
+                    Clove Embassy Tech Village,<br>
+                    Outer Ring Road, Devarabeesanahalli Village,<br>
+                    Bengaluru, 560103,<br>
+                    Karnataka, India<br>
+                    CIN : U51109KA2012PTC066107<br>
+                    Telephone: <a href="tel:044-45614700" class="phone-link">044-45614700</a> / <a href="tel:044-67415800" class="phone-link">044-67415800</a>
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <div class="footer-item">
+                    <i class="fas fa-store"></i>
+                    <span>Become a Seller</span>
+                </div>
+                <div class="footer-item">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>Advertise</span>
+                </div>
+                <div class="footer-item">
+                    <i class="fas fa-gift"></i>
+                    <span>Gift Cards</span>
+                </div>
+                <div class="footer-item">
+                    <i class="fas fa-question-circle"></i>
+                    <span>Help Center</span>
+                </div>
+                <div class="copyright-text">
+                    <span>© 2007-2026 Flipkart.com</span>
+                </div>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa payment-fa"></i>
+                    <i class="fab fa-cc-mastercard payment-fa"></i>
+                    <i class="fab fa-cc-discover payment-fa"></i>
+                    <span class="payment-text">RuPay</span>
+                    <span class="payment-text">EMI</span>
+                    <span class="payment-text">Net Banking</span>
+                    <span class="payment-text">Cash on Delivery</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
