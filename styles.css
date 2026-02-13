@@ -772,3 +772,106 @@ img {
     flex: 0 0 100%;
   }
 }
+  /* Dark Theme */
+/* ================================================= */
+/* IMPROVED DARK THEME (FULL COLOR FIX VERSION) */
+/* ================================================= */
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Header + Navigation */
+body.dark-mode .main-header,
+body.dark-mode .category-nav {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+/* Fix Login, Cart, Seller, Theme text */
+body.dark-mode .action-link,
+body.dark-mode .action-text,
+body.dark-mode .more .action-link i,
+body.dark-mode .category-text {
+  color: #ffffff !important;
+}
+
+/* Search Bar */
+body.dark-mode .search-form {
+  background-color: #2a2a2a;
+}
+
+body.dark-mode .search-input {
+  color: #ffffff;
+}
+
+body.dark-mode .search-input::placeholder {
+  color: #bbbbbb;
+}
+
+/* Section Titles */
+body.dark-mode .section-title {
+  color: #ffffff;
+}
+
+/* Product Sections */
+body.dark-mode .product-section {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .product-card {
+  background-color: #2a2a2a;
+  border: 1px solid #333;
+  color: #ffffff;
+}
+
+/* Product Text Fix */
+body.dark-mode .product-title,
+body.dark-mode .current-price,
+body.dark-mode .original-price,
+body.dark-mode .rating-count,
+body.dark-mode .product-description {
+  color: #ffffff;
+}
+
+/* View All link */
+body.dark-mode .view-all {
+  color: #4da3ff;
+}
+
+/* Slider Buttons */
+body.dark-mode .slide-btn {
+  background-color: #333;
+  color: #ffffff;
+}
+
+body.dark-mode .slide-btn:hover {
+  background-color: #444;
+}
+
+/* Footer */
+body.dark-mode .main-footer,
+body.dark-mode .footer-bottom {
+  background-color: #000000;
+}
+
+/* Footer Text Fix */
+body.dark-mode .footer-links a,
+body.dark-mode .footer-text,
+body.dark-mode .footer-item,
+body.dark-mode .copyright-text,
+body.dark-mode .payment-text {
+  color: #ffffff;
+}
+
+/* Footer small labels */
+body.dark-mode .footer-title {
+  color: #bbbbbb;
+}
+
+/* Payment background */
+body.dark-mode .payment-text {
+  background-color: #333;
+}
